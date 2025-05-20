@@ -1,0 +1,30 @@
+package com.nacihan.callendartest1;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import javafx.stage.StageStyle;
+
+import java.time.LocalDate;
+
+public class Main extends Application {
+
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("mainscreen.fxml"));
+        primaryStage.initStyle(StageStyle.UNDECORATED);
+       // primaryStage.setTitle("");
+        primaryStage.setScene(new Scene(root,650,442));
+        primaryStage.show();
+
+    }
+
+    public static void main(String[] args){
+        launch(args);
+
+    }
+
+}
