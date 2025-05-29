@@ -49,7 +49,7 @@ public class NewTaskController extends Application{
                 saveValuesToMysql();
                 warningLabel.setText("Task succesfully saved!");
             } else {
-                warningLabel.setText("Please enter invalid date");
+                warningLabel.setText("Please enter valid date");
             }
 
         } else {

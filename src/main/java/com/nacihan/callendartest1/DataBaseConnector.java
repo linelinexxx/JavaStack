@@ -10,7 +10,7 @@ public class DataBaseConnector {
     public Connection getConnection() {
         String databaseName = "calendarproject";
         String databaseUser = "root";
-        String databasePassword = "mysql1234";
+        String databasePassword = "root";
         String url = "jdbc:mysql://localhost:3306/" + databaseName;
 
         try {
