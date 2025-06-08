@@ -132,7 +132,7 @@ public class EditController extends Application {
             return;
         }
 
-        TaskSnapshot snapshot = undoStack.pop();
+        TaskSnapshot snapshot = undoStack.pop();    
 
         DataBaseConnector connectNow = new DataBaseConnector();
         Connection connectDB = connectNow.getConnection();

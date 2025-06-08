@@ -122,7 +122,7 @@ public class MainController extends Application {
 
                 AnchorPane taskPane = new AnchorPane();
                 taskPane.setPrefHeight(25);
-                taskPane.setStyle("-fx-background-color: #76777c;  -fx-border-color: #ddd; -fx-border-radius: 5;");
+                taskPane.setStyle("-fx-background-color:  #21262D ;  -fx-border-color: #ddd; -fx-border-radius: 5;");
 
                 Label titleLabel = new Label(title);
                 titleLabel.setPrefHeight(18);
